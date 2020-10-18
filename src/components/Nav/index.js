@@ -6,7 +6,8 @@ function NavTabs({currentTab, tabs, setCurrentTab }) {
   }, [currentTab]);
   return (
   <header>
-    <ul className="">
+    <h1>Josh Hall<br/>Full Stack Developer</h1>
+    <ul className="flex-end space-between">
       {tabs.map((tab, index) => (
         <li key={index}>
           <a
