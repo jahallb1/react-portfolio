@@ -1,8 +1,27 @@
 import React from "react";
 
+
 function Resume() {
     return(
-        <section></section>
+        <div>
+            <h2> <a href="/">Resume</a>  </h2>
+
+            <h3>Front End Languages</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>jQuery</li>
+            </ul>
+            <h3>Back End Languages</h3>
+            <ul>
+                <li>Node</li>
+                <li>Express</li>
+                <li>SQL</li>
+                <li>Mongo</li>
+            </ul>
+        </div>
     );
 }
 
