@@ -4,24 +4,15 @@ import React from 'react';
 function FooterFun() {
 
     return(
-        <footer>
-            <a href="/">
-                <img
-                src={require('../../assets/logos/email.jpg')}
-                alt="email"
-                />
+        <footer className="logos">
+            <a href="joshua.allan.hall@gmail.com">
+                Email
             </a>
-            <a href="/">
-                <img
-                src={require('../../assets/logos/github.png')}
-                alt="github"
-                />
+            <a href="https://github.com/jahallb1">
+                GitHub
             </a>
-            <a href="/">
-                <img
-                src={require('../../assets/logos/linkedin.png')}
-                alt="linkedin"
-                />
+            <a href="https://www.linkedin.com/in/josh-hall-98bb5699/">
+               Linkedin 
             </a>
 
         </footer>

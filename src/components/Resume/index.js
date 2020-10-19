@@ -1,10 +1,11 @@
 import React from "react";
 
 
+
 function Resume() {
     return(
         <div>
-            <h2> <a href="/">Resume</a>  </h2>
+            <h2> <a href={require('../../assets/documents/JoshHallResume.pdf')}>Resume</a></h2>
 
             <h3>Front End Languages</h3>
             <ul>
@@ -19,7 +20,7 @@ function Resume() {
                 <li>Node</li>
                 <li>Express</li>
                 <li>SQL</li>
-                <li>Mongo</li>
+                <li>MongoDb</li>
             </ul>
         </div>
     );

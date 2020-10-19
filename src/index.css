@@ -301,13 +301,26 @@ a {
 
 .about-me {
   display: flex;
-  padding-right: 20px;
+  padding-right: 40px;
+}
+.nav-list {
+  display: flex;
+
 }
 
 .nav-tabs {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
+  width: 100%;
 }
 
+.logos {
+  display: flex;
+  height: 25%;
+  background-color: var(--light);
+  justify-content: space-around;
+  padding: 40px;
+  
+
+}
