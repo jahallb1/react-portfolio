@@ -6,32 +6,39 @@ function Portfolio() {
       name: "Lyric-Lookup",
       class: "",
       tools: "HTML, CSS, Javascript",
-      link: "",
+      link: "https://mayorgak.github.io/lyric-look-up",
     },
     {
-      name: "",
+      name: "Password Generator",
       class: "",
-      tools: "",
-      link: "",
+      tools: "Javascript",
+      link: "https://jahallb1.github.io/passwordgenerator/",
     },
     {
-      name: "",
+      name: "Run Buddy",
       class: "",
-      tools: "",
-      link: "",
+      tools: "HTML, CSS",
+      link: "https://jahallb1.github.io/run-buddy/",
     },
     {
-      name: "",
+      name: "Readme Generator",
       class: "",
-      tools: "",
-      link: "",
+      tools: "Node.js, JavaScript",
+      link: "https://github.com/jahallb1/readmeGenerator",
     },
     {
-      name: "",
+      name: "Budget Tracker",
       class: "",
-      tools: "",
-      link: "",
+      tools: "HTML, CSS, JavaScript, Node, Mongo",
+      link: "https://github.com/jahallb1/budget-tracker",
     },
+    {
+        name: "Budget Tracker",
+        class: "",
+        tools: "HTML, CSS, JavaScript, Node, Mongo",
+        link: "https://github.com/jahallb1/budget-tracker",
+      },
+
   ];
   return (
       <section>
