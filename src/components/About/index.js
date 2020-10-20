@@ -3,12 +3,13 @@ import image from "../../assets/image/Josh-Hall.jpg";
 
 function About() {
   return (
-    <section>
-      <section>
-        <h3>Josh Hall - Full Stack Developer</h3>
-        <br />
+    <section className="container">
+        <h3 className="about-title">Josh Hall - Full Stack Developer</h3>
         <div className="about-me">
-          <img src={image} alt="Josh Hall" className="image" />
+          <div className="about-image-container">
+            <img src={image} alt="Josh Hall" className="image" />
+          </div>
+          <div className="about-text">
           <p>
             Full stack web developer with a focus on front-end development using
             a background in music with training in attention to detail and
@@ -23,7 +24,7 @@ function About() {
             quality front-end applications for the web.
           </p>
         </div>
-      </section>
+        </div>
     </section>
   );
 }

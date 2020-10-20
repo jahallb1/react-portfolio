@@ -34,7 +34,7 @@ function Portfolio() {
     },
     {
         name: "Budget Tracker",
-        class: "",
+        image: "",
         tools: "HTML, CSS, JavaScript, Node, Mongo",
         link: "https://github.com/jahallb1/budget-tracker",
       },
@@ -44,7 +44,7 @@ function Portfolio() {
       <section>
           <div className="projects">
               {projects.map((projects, index) => (
-                  <a className={`project ${projects.class}`} href={projects.link} key={index}>
+                  <a className={`project ${projects}`} href={projects.link} key={index}>
                       <div className="project-about">
                           <h3>{projects.name}</h3>
                           <p>{projects.tools}</p>
