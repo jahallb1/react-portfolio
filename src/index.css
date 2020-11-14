@@ -52,7 +52,9 @@
   padding: 8px 16px;
 }
 
-.nav-list { display: flex;
+.nav-list { 
+  display: flex;
+ justify-content: space-between;
 }
 
 
