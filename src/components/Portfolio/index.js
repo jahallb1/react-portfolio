@@ -1,10 +1,12 @@
 import React from "react";
 
+
+
 function Portfolio() {
   const projects = [
     {
       name: "Tv-Tracker",
-      image: "",
+      image: "../../assets/image/tv-tracker.png",
       tools: "HTML, CSS, Javascript",
       link: "https://stark-brushlands-99590.herokuapp.com/",
       GitHub: "https://github.com/Dannymont94/tv-tracker",
@@ -48,6 +50,7 @@ function Portfolio() {
               {projects.map((projects, index) => (
                   <a className={`project ${projects}`} href={projects.link} key={index}>
                       <div className="project-about">
+                          
                           <h3>{projects.name}</h3>
                           <p>{projects.tools}</p>
                       </div>
