@@ -2,8 +2,12 @@ import React from "react";
 import image from "../../assets/image/Josh-Hall.jpg";
 
 function About() {
+  
   return (
+
     <section className="container">
+      
+      
       <h3 className="about-title">Josh Hall - Full Stack Developer</h3>
       <div className="about-me">
         <div className="about-image-container">

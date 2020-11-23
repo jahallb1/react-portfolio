@@ -1,12 +1,12 @@
 import React from "react";
-
+//import tvTracker from "../../assets/image/tv-tracker.png";
 
 
 function Portfolio() {
   const projects = [
     {
       name: "Tv-Tracker",
-      image: "../../assets/image/tv-tracker.png",
+      //image: tvTracker,
       tools: "HTML, CSS, Javascript",
       link: "https://stark-brushlands-99590.herokuapp.com/",
       GitHub: "https://github.com/Dannymont94/tv-tracker",
@@ -48,6 +48,8 @@ function Portfolio() {
       <section>
           <div className="projects">
               {projects.map((projects, index) => (
+                <React.Fragment>
+                  <img src={projects.image}  alt=""/>
                   <a className={`project ${projects}`} href={projects.link} key={index}>
                       <div className="project-about">
                           
@@ -55,6 +57,7 @@ function Portfolio() {
                           <p>{projects.tools}</p>
                       </div>
                   </a>
+                  </React.Fragment>
               ))}
           </div>
       </section>
