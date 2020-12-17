@@ -1,39 +1,30 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './theme.css';
 import './index.css';
-import Nav from './components/Nav';
-import About from './components/About';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+//import Nav from './components/Nav';
+import Home from './components/About';
 import Portfolio from './components/Portfolio';
 import ContactForm from './components/Contact';
 import Resume from './components/Resume';
 import FooterFun from './components/Footer';
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
-  const tabs = ['About', 'Portfolio', 'Contact', 'Resume'];
-
-  const [currentTab, setCurrentTab] =useState(tabs[0]);
-
-  const renderPage = React.useCallback(() => {
-    switch (currentTab) {
-      case 'Portfolio':
-        return <Portfolio />;
-      case 'Resume':
-        return <Resume />;
-      case 'Contact':
-        return <ContactForm />;
-      default:
-        return <About />
-    }
-  }, [currentTab])
-
+  
 
   return (
     <div>
-      <Nav tabs={tabs} currentTab={currentTab} setCurrentTab={setCurrentTab} />
-      <main className="main">
-        {renderPage()}
-      </main>
+      <Router>
+      <Navbar  />
+      <Switch>
+      <Route path='/' exact component={Home} />
+          <Route path='/portfolio' component={Portfolio} />
+          <Route path='/resume' component={Resume} />
+          <Route path='/contact' component={ContactForm} />
+      </Switch>
       <FooterFun />
+      </Router>
     </div>
   );
 }
