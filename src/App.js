@@ -2,7 +2,6 @@ import React from 'react';
 import './theme.css';
 import './index.css';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
-//import Nav from './components/Nav';
 import Home from './components/About';
 import Portfolio from './components/Portfolio';
 import ContactForm from './components/Contact';

@@ -4,7 +4,7 @@ import React from "react";
 
 function Resume() {
     return(
-        <div>
+        <div className="resume-div">
             <h2> <a href={require('../../assets/documents/Josh-Hall-Resume.pdf')}>Resume</a></h2>
 
             <h3>Front End Languages</h3>
