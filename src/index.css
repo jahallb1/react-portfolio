@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 .main {
   display: flex;
   margin: 0 auto;
@@ -80,14 +82,67 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  
   align-items: center;
   
 }
 
 .button-submit {
-  padding-top: 10px;
+  margin-top: 5px;
 }
+
+.resume-div {
+  padding-left: 30px;
+}
+
+.projects {
+  display: flex;
+  
+}
+
+.card {
+  display: flexbox;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: var(--light);
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  width: 50%;
+  margin: 50px 300px;
+
+  
+}
+
+.card-body {
+  font-size: 20px;
+  flex-grow: 2;
+  margin-left: 5px;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column;
+  background-color: var(--light);
+  border-radius: 10px;
+}
+
+.card-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 1px black;
+}
+
+.port {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.h1tag {
+  align-items: center;
+  justify-items: center;
+}
+
+
 
 
 @media screen and (max-width: 480px) {
