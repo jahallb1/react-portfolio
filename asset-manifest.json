@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.2afe851f.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.7ad366e2.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.7ad366e2.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.04008fcd.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.0d671d84.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.0d671d84.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.48c02283.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.48c02283.js.map",
-    "static/js/2.82a24db0.chunk.js": "/react-portfolio/static/js/2.82a24db0.chunk.js",
-    "static/js/2.82a24db0.chunk.js.map": "/react-portfolio/static/js/2.82a24db0.chunk.js.map",
+    "static/js/2.2ea49599.chunk.js": "/react-portfolio/static/js/2.2ea49599.chunk.js",
+    "static/js/2.2ea49599.chunk.js.map": "/react-portfolio/static/js/2.2ea49599.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.828b7cae52cb5e8e630c663c9faa021a.js": "/react-portfolio/precache-manifest.828b7cae52cb5e8e630c663c9faa021a.js",
+    "precache-manifest.0f58ddd752b8188d80929912306c9a95.js": "/react-portfolio/precache-manifest.0f58ddd752b8188d80929912306c9a95.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
-    "static/css/main.2afe851f.chunk.css.map": "/react-portfolio/static/css/main.2afe851f.chunk.css.map",
-    "static/js/2.82a24db0.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.82a24db0.chunk.js.LICENSE.txt",
+    "static/css/main.04008fcd.chunk.css.map": "/react-portfolio/static/css/main.04008fcd.chunk.css.map",
+    "static/js/2.2ea49599.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.2ea49599.chunk.js.LICENSE.txt",
+    "static/media/Josh-Hall-Resume.pdf": "/react-portfolio/static/media/Josh-Hall-Resume.11ccdd0b.pdf",
     "static/media/Josh-Hall.jpg": "/react-portfolio/static/media/Josh-Hall.b090e651.jpg",
-    "static/media/JoshHallResume.pdf": "/react-portfolio/static/media/JoshHallResume.5edad9ca.pdf"
+    "static/media/tic-tac-toe.png": "/react-portfolio/static/media/tic-tac-toe.5ffc031d.png",
+    "static/media/tv-tracker.png": "/react-portfolio/static/media/tv-tracker.a1c78d94.png"
   },
   "entrypoints": [
     "static/js/runtime-main.48c02283.js",
-    "static/js/2.82a24db0.chunk.js",
-    "static/css/main.2afe851f.chunk.css",
-    "static/js/main.7ad366e2.chunk.js"
+    "static/js/2.2ea49599.chunk.js",
+    "static/css/main.04008fcd.chunk.css",
+    "static/js/main.0d671d84.chunk.js"
   ]
 }
