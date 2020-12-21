@@ -19,6 +19,7 @@ function App() {
           <Route path="/portfolio" component={Portfolio} />
           <Route path="/resume" component={Resume} />
           <Route path="/contact" component={ContactForm} />
+          <Route path="*" component={Home} />
         </Switch>
         <FooterFun />
       </Router>

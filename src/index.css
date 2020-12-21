@@ -69,7 +69,7 @@
 }
 
 .icon {
-  width: 20px;
+  width: 45px;
 }
 
 .form {
@@ -100,6 +100,14 @@
   
 }
 
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+
 .card {
   display: flexbox;
   padding: 15px;
@@ -109,7 +117,7 @@
   text-align: center;
   overflow: hidden;
   width: 50%;
-  margin: 50px 300px;
+  margin: 20px;
 
   
 }
