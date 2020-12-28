@@ -179,5 +179,14 @@
   margin: 4px;
  }
 
+ h3 {
+   font-size: 1.7rem;
+ }
+
+ p {
+   font-size: 1rem;
+   word-break: break-word ;
+ }
+
 }
 
